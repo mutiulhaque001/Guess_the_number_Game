@@ -17,7 +17,7 @@ int main()
 			printf("Number Matched\n");
 			if(count<=5)
 				printf("You took %d attempts\n",count);
-			goto end;
+			break;
 		}
 		else
 		{
@@ -27,6 +27,5 @@ int main()
 				printf("You failed\nThe number was %d\n",key);
 		}
 	}
-	end:
 	return 0;
 }
